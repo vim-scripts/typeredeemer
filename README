@@ -1,0 +1,17 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3176
+
+Ever wanted to change your font-size/line-height declarations from one unit to another without resorting to going back and forth between vim and an online conversion tool? This script lets you convert between px, em and % values through the use of some simple key mappings.
+
+Mappings for converting one font-size/line-height declaration at a time include:
+
+<leader>px - convert value to px equivalent
+<leader>em - convert value to em equivalent
+<leader>p% - convert value to percent equivalent
+
+To convert all font-size and line-height declarations at the same time:
+
+<leader>apx - convert all to px
+<leader>aem - convert all to em
+<leader>ap% - convert all to %
+
+You don't have to be bound to the browser default size of 16px, which this script uses by default. To change this value, use the mapping '<leader>sd' and specify a new default size in px (i.e. 17.0). To check what this value is at any time, use the mapping '<leader>gd'.
